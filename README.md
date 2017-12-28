@@ -23,5 +23,5 @@ Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 �
 * **Check the cluster status by** kubectl get pods -nkube-system -w
 * kubectl -n kube-system get secret | grep kubernetes-dashboard-admin
 * **Copy token data by** kubectl describe -nkube-system secret kubernetes-dashboard-admin-token-xxxxx
-* Access to http://minion-ip:30000/, select 'Token' button and sign-in
+* Access to https://minion-ip:30000/, select 'Token' button and sign-in
 * **Paste token data** and have fun with k8s!
