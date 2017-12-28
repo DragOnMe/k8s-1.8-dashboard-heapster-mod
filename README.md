@@ -16,7 +16,7 @@ Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 �
 * kubectl create -f kubernetes-dashboard.yaml
 * kubectl create -f kubernetes-dashboard-admin-rbac.yaml
 * cd ../
-* kubectl create -f k8s-heapster
+* kubectl create -f k8s-heapster/
 
 **Dashboard access**
 
