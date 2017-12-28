@@ -1,6 +1,6 @@
 # k8s-1.8-dashboard-heapster-mod
 
-Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 적용하여 비교적 쉽게 설치/사용하도록 수정한 대쉬보드
+Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 적용하여 비교적 쉽게 설치/사용하도록 수정
 
 # Prerequisites
 
