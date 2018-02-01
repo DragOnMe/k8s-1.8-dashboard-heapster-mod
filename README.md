@@ -24,7 +24,7 @@ Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 �
 * kubectl -n kube-system get secret | grep kubernetes-dashboard-admin
 * **Copy token data by** kubectl describe -nkube-system secret kubernetes-dashboard-admin-token-xxxxx
 * Or just use single command below simply ...
-kubectl describe -nkube-system secret `kubectl -n kube-system get secret | grep kubernetes-dashboard-admin | cut -f1 -d" "`
+kubectl describe -nkube-system secret \`kubectl -n kube-system get secret | grep kubernetes-dashboard-admin | cut -f1 -d" "\`
 
 * Access to https://minion-ip:30000/, select 'Token' button
 * **Paste token data**, select 'Sign in' and have fun with k8s dashboard!
