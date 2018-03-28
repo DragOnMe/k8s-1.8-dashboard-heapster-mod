@@ -2,6 +2,8 @@
 
 Kusernetes 1.8.x Dashboard(Heapster 포함)을 기반으로 Nodeport 30000를 적용하여 비교적 쉽게 설치/사용하도록 수정
 
+Kubernetes dashboard 1.8.3 image 사용 가능(k8s-1.8.1-dashboard/kubernetes-dashboard.yaml 파일의 117 line의 image 버전을 1.8.3 으로 수정해서 사용 가능 - 20180328)
+
 # Prerequisites
 
 * Kubernetes v1.8.x~v1.9.0 이 설치되고 클러스터가 정상 작동 상태여야 함
